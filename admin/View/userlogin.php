@@ -18,7 +18,7 @@ if(isset($_POST["submit"])){
   }
   elseif($result == 100){
     echo
-    "<script> alert('User Not Registered'); </script>";
+    "<script> alert('User is Not Registered'); </script>";
   }
 }
 ?>
